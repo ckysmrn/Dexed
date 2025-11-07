@@ -34,7 +34,7 @@ jobs:
       run: sudo chmod +x gradlew
 
     - name: Build Debug APK
-      run: sudo -E ./gradlew assembleDebug
+      run: ./gradlew assembleDebug
 
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
