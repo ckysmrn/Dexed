@@ -156,7 +156,8 @@ public class TextEditorActivity extends AppCompatActivity implements  DialogLine
 	}
 	
 	private void initialize(Bundle _savedInstanceState) {
-		DexEditorActivity.classTree = classTree;
+		//DexEditorActivity.classTree = classTree;
+		classTree = DexEditorActivity.classTree;
 		_app_bar = findViewById(R.id._app_bar);
 		_coordinator = findViewById(R.id._coordinator);
 		_toolbar = findViewById(R.id._toolbar);
