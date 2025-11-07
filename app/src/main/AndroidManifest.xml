@@ -12,7 +12,8 @@
 		android:requestLegacyExternalStorage="true"
 		android:usesCleartextTraffic="true"
 		android:theme="@style/AppTheme">
-		<activity
+	        <activity
+		        android:exported="true"
 			android:name=".MainActivity"
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
